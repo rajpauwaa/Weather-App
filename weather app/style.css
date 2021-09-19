@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px 10px;
+}
+
+header input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 1px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+main {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  color: black;
+  font-size: 30px;
+}
+
+.location .date {
+  color: black;
+  font-size: 20px;
+}
+
+.current .temp {
+  color: black;
+  font-size: 70px;
+  font-weight: 400;
+ 
+  
+}
+
+.current .weather {
+  color:black;
+  font-size: 30px;
+}
